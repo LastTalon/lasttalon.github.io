@@ -1,4 +1,3 @@
-lasttalon.github.io
-======
+# lasttalon.github.io
 
-Just a place to display things.
+My personal web page on GitHub.

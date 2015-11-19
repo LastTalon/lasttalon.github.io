@@ -26,7 +26,7 @@ h2 {
 	font-family: 'PT Sans', sans-serif;
 }
 
-.flat_panel {
+.flat_page {
 	padding: 12px;
 	margin: 4px;
 	
@@ -37,12 +37,23 @@ h2 {
 	color: #666666;
 }
 
-.flat_button {
-	padding: 4px 8px;
-	margin: 4px;
+.flat_panel {
+	padding: 12px;
+	margin: 2px;
 	
 	display: inline-block;
-	float: right;
+	
+	background-color: #FFFFFF;
+	box-shadow: 1px 1px 2px #888888;
+	border-radius: 4px;
+	
+	color: #666666;
+}
+
+.flat_button {
+	padding: 4px 8px;
+	
+	display: inline-block;
 	
 	background-color: #666666;
 	box-shadow: 1px 1px 2px #888888;
@@ -51,6 +62,7 @@ h2 {
 	color: #AAAAAA;
 	font-size: .8em;
 	font-family: 'PT Sans', sans-serif;
+	text-decoration: none;
 	
 	-webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -58,7 +70,7 @@ h2 {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-	cursor:default;
+	cursor: pointer;
 }
 
 .flat_button:hover {
@@ -70,7 +82,28 @@ h2 {
 	box-shadow: 0px 0px 0px #888888;
 }
 
-#center_page {
+.buttons {
+	display: inline-block;
+	float: right;
+	width: 50%;
+	
+	text-align: right;
+}
+
+#info_page {
+	padding: 0px;
+	margin: 0px;
+	
+	position: fixed;
+	display: inline-block;
+	width: 22.5%;
+	top: 2px;
+	left: 0px;
+	
+	text-align: right;
+}
+
+#main_page {
 	padding: 0px;
 	margin: 0px;
 	
@@ -84,6 +117,19 @@ h2 {
 	text-align: center;
 }
 
-#content {
+#content {	
+	text-align: left;
+}
+
+#nav {
+	width: 200px;
+	
+	text-align: left;
+}
+
+#logo {
+	width: 200px;
+	height: 200px;
+	
 	text-align: left;
 }

@@ -5,15 +5,40 @@ body {
 	text-align: center;
 }
 
-#center {
+p {
+	margin: 1em 0px;
+	line-height: 1.4em;
+}
+
+h1 {
+	font-size: 3em;
+	margin: 0px;
+}
+
+h2 {
+	font-size: 2em;
+	margin: 0px 0px .5em 0px;
+}
+
+.flat {
 	padding: 12px;
 	margin: 4px;
+	
+	background-color: #FFFFFF;
+	box-shadow: 1px 1px 2px #888888;
+	border-radius: 4px;
+}
+
+#center_page {
+	padding: 0px;
+	margin: 0px;
 	
 	display: inline-block;
 	width: 55%;
 	
-	background-color: #FFFFFF;
+	text-align: center;
+}
+
+#content {
 	text-align: left;
-	box-shadow: 1px 1px 2px #888888;
-	border-radius: 4px;
 }

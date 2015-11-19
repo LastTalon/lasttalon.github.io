@@ -1,0 +1,19 @@
+body {
+	margin: 0px;
+	
+	background-color: #F6F6F6;
+	text-align: center;
+}
+
+#center {
+	padding: 12px;
+	margin: 4px;
+	
+	display: inline-block;
+	width: 55%;
+	
+	background-color: #FFFFFF;
+	text-align: left;
+	box-shadow: 2px 2px 5px #888888;
+	border-radius: 12px;
+}

@@ -26,6 +26,18 @@ h2 {
 	font-family: 'PT Sans', sans-serif;
 }
 
+a:link {
+	color: #444444;
+}
+
+a:visited {
+	color: #444444;
+}
+
+a:hover {
+	color: #888888;
+}
+
 .flat_page {
 	padding: 12px;
 	margin: 4px;
@@ -124,7 +136,20 @@ h2 {
 #nav {
 	width: 200px;
 	
+	font-size: .8em;
+	font-family: 'PT Sans', sans-serif;
 	text-align: left;
+}
+
+#nav ul {
+	padding: 0px .5em;
+	margin: 0px;
+	
+	list-style-type: none;
+}
+
+#nav a {
+	text-decoration: none;
 }
 
 #logo {

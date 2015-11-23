@@ -7,6 +7,10 @@ body {
 	font-family: 'PT Serif', serif;
 }
 
+::selection {
+	background-color: #DDDDDD;
+}
+
 p {
 	margin: 1em 0px;
 	line-height: 1.4em;

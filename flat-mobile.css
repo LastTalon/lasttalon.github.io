@@ -1,0 +1,25 @@
+.flat_panel {
+	margin: 2px 4px;
+}
+
+#info_page {
+	position: relative;
+	width: 90%;
+	top: 2px;
+	
+	text-align: center;
+}
+
+#main_page {
+	width: 90%;
+}
+
+#nav ul {
+	padding: 0px;
+}
+
+#nav ul li {
+	margin: 0px .5em;
+	
+	display: inline-block;
+}

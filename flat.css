@@ -57,7 +57,6 @@ a:hover {
 
 .flat_panel {
 	padding: 12px;
-	margin: 2px;
 	
 	display: inline-block;
 	
@@ -112,13 +111,7 @@ a:hover {
 	padding: 0px;
 	margin: 0px;
 	
-	position: fixed;
 	display: inline-block;
-	width: 22.5%;
-	top: 2px;
-	left: 0px;
-	
-	text-align: right;
 }
 
 #main_page {
@@ -126,7 +119,6 @@ a:hover {
 	margin: 0px;
 	
 	display: inline-block;
-	width: 55%;
 	
 	text-align: center;
 }
@@ -140,15 +132,11 @@ a:hover {
 }
 
 #nav {
-	width: 200px;
-	
-	font-size: .8em;
 	font-family: 'PT Sans', sans-serif;
 	text-align: left;
 }
 
 #nav ul {
-	padding: 0px .5em;
 	margin: 0px;
 	
 	list-style-type: none;

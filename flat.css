@@ -123,13 +123,32 @@ ul {
 .buttons {
 	display: inline-block;
 	float: right;
+	clear: right;
 	width: 50%;
 	
 	text-align: right;
 }
 
 .buttons_end {
+	clear: right;
+	
 	text-align: right;
+}
+
+.images {
+	margin: 4px 0 4px .5em;
+	
+	display: inline-block;
+	float: right;
+	clear: right;
+	width: 37.5%;
+	height: 100%;
+	
+	text-align: right;
+}
+
+.images img {
+	display: block;
 }
 
 #info_page {

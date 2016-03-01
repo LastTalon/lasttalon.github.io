@@ -51,6 +51,10 @@ a:hover {
 	color: #888888;
 }
 
+ul {
+	margin: 0 0 1em 0;
+}
+
 .flat_page {
 	padding: 12px;
 	margin: 4px;

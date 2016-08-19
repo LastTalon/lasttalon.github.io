@@ -3,13 +3,16 @@ body {
 }
 
 .flat_panel {
-	margin: 2px 4px;
+	margin: 8px;
+	
+	display: block;
+	
+	text-align: center;
 }
 
 #info_page {
 	position: relative;
 	width: 90%;
-	top: 2px;
 	
 	text-align: center;
 }
@@ -26,4 +29,8 @@ body {
 	margin: 0px .5em;
 	
 	display: inline-block;
+}
+
+#logo {
+	height: 200px;
 }

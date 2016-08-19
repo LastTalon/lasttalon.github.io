@@ -3,13 +3,13 @@ body {
 }
 
 .flat_panel {
-	margin: 2px;
+	float: right;
 }
 
 #info_page {
 	position: fixed;
 	width: 22.5%;
-	top: 2px;
+	top: 0px;
 	left: 0px;
 	
 	text-align: right;
@@ -23,8 +23,16 @@ body {
 	width: 200px;
 	
 	font-size: .8em;
+	text-align: left;
 }
 
 #nav ul {
 	padding: 0px .5em;
+}
+
+#logo {
+	width: 200px;
+	height: 200px;
+	
+	text-align: left;
 }

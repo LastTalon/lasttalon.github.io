@@ -2,6 +2,8 @@ body {
 	margin: 0px;
 	
 	background-color: #99CC66;
+	background: url("green_cup.png");
+	background-attachment: fixed;
 	text-align: center;
 	font-family: 'PT Serif', serif;
 }

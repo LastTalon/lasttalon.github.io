@@ -1,8 +1,7 @@
 body {
 	margin: 0px;
 	
-	background-color: #99CC66;
-	background: url("green_cup.png");
+	background-image: url("green_cup.png");
 	background-attachment: fixed;
 	text-align: center;
 	font-family: 'PT Serif', serif;
@@ -193,5 +192,5 @@ ul {
 
 #logo {
 	background: url(http://www.gravatar.com/avatar/86bc7097bcc85152d07a902141d6efab.png?s=200&r=pg) no-repeat center;
-	background-color: #442288;
+	background-color: #553399;
 }

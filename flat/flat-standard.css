@@ -1,0 +1,38 @@
+body {
+	font-size: 14pt;
+}
+
+.flat_panel {
+	float: right;
+}
+
+#info_page {
+	position: fixed;
+	width: 22.5%;
+	top: 0px;
+	left: 0px;
+	
+	text-align: right;
+}
+
+#main_page {
+	width: 55%;
+}
+
+#nav {
+	width: 200px;
+	
+	font-size: .8em;
+	text-align: left;
+}
+
+#nav ul {
+	padding: 0px .5em;
+}
+
+#logo {
+	width: 200px;
+	height: 200px;
+	
+	text-align: left;
+}

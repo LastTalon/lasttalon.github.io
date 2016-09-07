@@ -8,7 +8,7 @@ body {
 }
 
 ::selection {
-	background-color: #DDDDDD;
+	background-color: #D0D0D0;
 }
 
 p {
@@ -42,16 +42,13 @@ h3 {
 	font-family: 'PT Sans', sans-serif;
 }
 
-a:link {
-	color: #333333;
-}
-
-a:visited {
-	color: #333333;
+a {
+	color: #111111;
+	text-decoration: underline;
 }
 
 a:hover {
-	color: #888888;
+	color: #666666;
 }
 
 ul {
@@ -87,10 +84,10 @@ ul {
 	display: inline-block;
 	
 	background-color: #F3FFEE;
-	box-shadow: 1px 1px 1px #888888;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
 	border-radius: 4px;
 	
-	color: #333333;
+	color: #111111;
 	font-size: .8em;
 	font-family: 'PT Sans', sans-serif;
 	text-decoration: none;
@@ -104,22 +101,14 @@ ul {
 	cursor: pointer;
 }
 
-.flat_button:link {
-	color: #333333;
-}
-
-.flat_button:visited {
-	color: #333333;
-}
-
 .flat_button:hover {
-	color: #333333;
-	box-shadow: 1px 1px 5px #666666;
+	color: #111111;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
 }
 
 .flat_button:active {
-	color: #333333;
-	box-shadow: 0px 0px 0px #ffffff;
+	color: #111111;
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, .5);
 }
 
 .buttons {

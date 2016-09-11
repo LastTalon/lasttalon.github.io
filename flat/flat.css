@@ -30,7 +30,7 @@ ul {
 	
 	color: #444444;
 	text-align: left;
-	background-color: #F3FFEE;
+	background-color: #FFFFEE;
 	box-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
 }
 
@@ -76,7 +76,7 @@ ul {
 	display: inline-block;
 	
 	color: #444444;
-	background-color: #F3FFEE;
+	background-color: #FFFFEE;
 	box-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
 }
 
@@ -91,7 +91,7 @@ ul {
 	font-family: 'PT Sans', sans-serif;
 	color: #111111;
 	text-decoration: none;
-	background-color: #F3FFEE;
+	background-color: #90AA78;
 	box-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
 	
 	-webkit-touch-callout: none;

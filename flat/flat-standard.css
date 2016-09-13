@@ -6,6 +6,10 @@ body {
 	float: right;
 }
 
+.flat_button.mobile {
+	display: none;
+}
+
 #info_page {
 	position: fixed;
 	width: 22.5%;

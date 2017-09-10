@@ -47,6 +47,42 @@ ul {
 	list-style-type: none;
 }
 
+a, a:visited {
+	color: #550000;
+}
+
+input {
+	padding: 0;
+	border: 0;
+	margin: .6em 0;
+	
+	width: 100%;
+	display: block;
+	
+	background: none;
+	border-bottom: 1px solid #000000;
+	font-family: "Lusitana", serif;;
+	font-size: 1em;
+}
+
+label {
+	padding: 0;
+	border: 0;
+	margin: .6em 0;
+	
+	width: 100%;
+	display: block;
+	
+	color: #776633;
+	font-size: .8em;
+}
+
+label input {
+	margin: 0;
+	
+	font-size: 1.25em;
+}
+
 .sheet {
 	padding: 0;
 	border: 0;

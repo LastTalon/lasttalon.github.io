@@ -1,0 +1,42 @@
+html, body {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	
+	background-color: black;
+	text-align: center;
+}
+
+h1 {
+	padding: 0;
+	border: 0;
+	margin: .5em 0;
+}
+
+p {
+	padding: 0;
+	border: 0;
+	margin: 0 0 .5em 0;
+}
+
+.sheet {
+	padding: 0;
+	border: 0;
+	margin: 0 0 6px 0;
+	
+	overflow: hidden;
+	
+	background-color: white;
+}
+
+#content {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	
+	width: 1024px;
+	display: inline-block;
+	
+	background-color: black;
+	text-align: center;
+}

@@ -61,8 +61,23 @@ input {
 	
 	background: none;
 	border-bottom: 1px solid #000000;
-	font-family: "Lusitana", serif;;
+	font-family: "Lusitana", serif;
 	font-size: 1em;
+}
+
+textarea {
+	padding: 0;
+	border: 1px solid #000000;
+	margin: .6em 0;
+	
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	
+	background: none;
+	font-family: "Lusitana", serif;
+	font-size: 1em;
+	resize: none;
 }
 
 label {
@@ -83,6 +98,19 @@ label input {
 	font-size: 1.25em;
 }
 
+label textarea {
+	margin: 0;
+	
+	font-size: 1.25em;
+}
+
+input.inline {
+	width: 2em;
+	display: inline;
+	
+	text-align: center;
+}
+
 .sheet {
 	padding: 0;
 	border: 0;
@@ -92,7 +120,6 @@ label input {
 	overflow: hidden;
 	
 	background-image: url("images/background.jpg");
-	/*border-radius: 3px;*/
 	box-shadow: 1px 4px 14px #000000;
 	text-align: left;
 }
@@ -104,6 +131,14 @@ label input {
 	
 	display: block;
 	overflow: hidden;
+}
+
+.nospace {
+	margin: 0;
+}
+
+.box {
+	border: 2px solid #ccaa66;;
 }
 
 .vertical-twothird {
@@ -158,6 +193,14 @@ label input {
 
 .centered {
 	text-align: center;
+}
+
+.horizontal-rule {
+	border-bottom: 2px solid #ccaa66;
+}
+
+.spaced {
+	margin: .6em 0 0 0;
 }
 
 #content {

@@ -71,16 +71,51 @@
 						<div class="section">
 							<div class="vertical-third">
 								<div class="section">
-								</div>
-								<div class="section">
-								</div>
-								<div class="section">
-								</div>
-								<div class="section">
-								</div>
-								<div class="section">
-								</div>
-								<div class="section">
+									<label class="centered">
+										Ability scores
+									</label>
+									<div class="section box centered">
+										<input class="inline spaced large" type="text" id="str_mod" />
+										<label class="spaced">
+											<div><input class="inline" type="text" id="str" /></div>
+											Str
+										</label>
+									</div>
+									<div class="section box centered">
+										<input class="inline spaced large" type="text" id="dex_mod" />
+										<label class="spaced">
+											<div><input class="inline" type="text" id="dex" /></div>
+											Dex
+										</label>
+									</div>
+									<div class="section box centered">
+										<input class="inline spaced large" type="text" id="con_mod" />
+										<label class="spaced">
+											<div><input class="inline" type="text" id="con" /></div>
+											Con
+										</label>
+									</div>
+									<div class="section box centered">
+										<input class="inline spaced large" type="text" id="int_mod" />
+										<label class="spaced">
+											<div><input class="inline" type="text" id="int" /></div>
+											Int
+										</label>
+									</div>
+									<div class="section box centered">
+										<input class="inline spaced large" type="text" id="wis_mod" />
+										<label class="spaced">
+											<div><input class="inline" type="text" id="wis" /></div>
+											Wis
+										</label>
+									</div>
+									<div class="section box centered">
+										<input class="inline spaced large" type="text" id="cha_mod" />
+										<label class="spaced">
+											<div><input class="inline" type="text" id="cha" /></div>
+											Cha
+										</label>
+									</div>
 								</div>
 							</div>
 							<div class="vertical-twothird">
@@ -233,54 +268,242 @@
 					<div class="vertical-third">
 						<div class="section">
 							<div class="vertical-third">
-								<p>v2 1 v1</p>
+								<div class="section">
+									<div class="section box centered">
+										<label class="spaced">
+											<input class="centered" type="text" id="ac" />
+											AC
+										</label>
+									</div>
+								</div>
 							</div>
 							<div class="vertical-third">
-								<p>v2 1 v2</p>
+								<div class="section">
+									<div class="section box centered">
+										<label class="spaced">
+											<input class="centered" type="text" id="init" />
+											Initiative
+										</label>
+									</div>
+								</div>
 							</div>
 							<div class="vertical-third">
-								<p>v2 1 v3</p>
+								<div class="section">
+									<div class="section box centered">
+										<label class="spaced">
+											<input class="centered" type="text" id="speed" />
+											Speed
+										</label>
+									</div>
+								</div>
 							</div>
 						</div>
 						<div class="section">
-							<p>v2 2</p>
-						</div>
-						<div class="section">
-							<div class="vertical-half">
-								<p>v2 3 v1</p>
+							<div class="section box">
+								<div class="vertical-third">
+									<div class="section nospace centered">
+										<label>
+											<input class="centered" type="text" id="hp_max" />
+											Maximum
+										</label>
+									</div>
+								</div>
+								<div class="vertical-third">
+									<div class="section nospace centered">
+										<label>
+											<input class="centered" type="text" id="hp" />
+											Current
+										</label>
+									</div>
+								</div>
+								<div class="vertical-third">
+									<div class="section nospace centered">
+										<label>
+											<input class="centered" type="text" id="hp_temp" />
+											Temporary
+										</label>
+									</div>
+								</div>
+								<label class="nospace centered">
+									Hit Points
+								</label>
 							</div>
-							<div class="vertical-half">
-								<p>v2 3 v2</p>
+						</div>
+						<div class="section">
+							<div class="section box">
+								<div class="vertical-half">
+									<div class="section nospace centered">
+										<label>
+											<input class="centered" type="text" id="hit_dice_total" />
+											Total
+										</label>
+									</div>
+								</div>
+								<div class="vertical-half">
+									<div class="section nospace centered">
+										<label>
+											<input class="centered" type="text" id="hit_dice" />
+											Current
+										</label>
+									</div>
+								</div>
+								<label class="nospace centered">
+									Hit Dice
+								</label>
 							</div>
 						</div>
 						<div class="section">
-							<p>v2 4</p>
+							<div class="section box centered">
+								<div class="vertical-half">
+									<label>
+										<input class="check" type="checkbox" id="succsess1" />
+										<input class="check" type="checkbox" id="succsess2" />
+										<input class="check" type="checkbox" id="succsess3" />
+										Successes
+									</label>
+								</div>
+								<div class="vertical-half">
+									<label>
+										<input class="check" type="checkbox" id="fail1" />
+										<input class="check" type="checkbox" id="fail2" />
+										<input class="check" type="checkbox" id="fail3" />
+										Failures
+									</label>
+								</div>
+								<label class="spaced centered">
+									Death Saves
+								</label>
+							</div>
 						</div>
 						<div class="section">
-							<p>v2 5</p>
+							<div class="section box">
+								<div class="section nospace">
+									<div class="vertical-third">
+										<label class="nospace centered">
+											Name
+											<input class="nospace" type="text" id="attack1" />
+											<input class="nospace" type="text" id="attack2" />
+											<input class="nospace" type="text" id="attack3" />
+											<input class="nospace" type="text" id="attack4" />
+											<input class="nospace" type="text" id="attack5" />
+											<input class="nospace" type="text" id="attack6" />
+										</label>
+									</div>
+									<div class="vertical-third">
+										<label class="nospace centered">
+											Bonus
+											<input class="nospace" type="text" id="bonus1" />
+											<input class="nospace" type="text" id="bonus2" />
+											<input class="nospace" type="text" id="bonus3" />
+											<input class="nospace" type="text" id="bonus4" />
+											<input class="nospace" type="text" id="bonus5" />
+											<input class="nospace" type="text" id="bonus6" />
+										</label>
+									</div>
+									<div class="vertical-third">
+										<label class="nospace centered">
+											Damage/Type
+											<input class="nospace" type="text" id="damage1" />
+											<input class="nospace" type="text" id="damage2" />
+											<input class="nospace" type="text" id="damage3" />
+											<input class="nospace" type="text" id="damage4" />
+											<input class="nospace" type="text" id="damage5" />
+											<input class="nospace" type="text" id="damage6" />
+										</label>
+									</div>
+								</div>
+								<label class="centered spaced">
+									Attacks &amp; Spellcasting
+								</label>
+							</div>
+							
+						</div>
+						<div class="section">
+							<div class="vertical-quarter spaced">
+								<div class="section box">
+									<label class="centered">
+										<input class="centered" type="text" id="cp" />
+										CP
+									</label>
+								</div>
+								<div class="section box">
+									<label class="centered">
+										<input class="centered" type="text" id="sp" />
+										SP
+									</label>
+								</div>
+								<div class="section box">
+									<label class="centered">
+										<input class="centered" type="text" id="ep" />
+										EP
+									</label>
+								</div>
+								<div class="section box">
+									<label class="centered">
+										<input class="centered" type="text" id="gp" />
+										GP
+									</label>
+								</div>
+								<div class="section box">
+									<label class="centered">
+										<input class="centered" type="text" id="pp" />
+										PP
+									</label>
+								</div>
+								<div class="section box">
+									<label class="centered">
+										<input class="centered" type="text" id="gems" />
+										Gems
+									</label>
+								</div>
+								<label>
+									Wealth
+								</label>
+							</div>
+							<div class="vertical-threequarter">
+								<div class="section">
+									<label>
+										<textarea class="nospace" id="equipment" rows="20"></textarea>
+										Equipment
+									</label>
+								</div>
+							</div>
 						</div>
 					</div>
 					
 					<div class="vertical-third">
 						<div class="section">
-							<p>v3 1</p>
-						</div>
-						<div class="section">
-							<p>v3 2</p>
-						</div>
-						<div class="section">
-							<p>v3 3</p>
-						</div>
-						<div class="section">
-							<p>v3 4</p>
-						</div>
-						<div class="section">
-							<p>v3 5</p>
+							<label>
+								<textarea id="personality" rows="4"></textarea>
+								Personality Traits
+							</label>
+							<label>
+								<textarea id="ideals" rows="3"></textarea>
+								Ideals
+							</label>
+							<label>
+								<textarea id="bonds" rows="3"></textarea>
+								Bonds
+							</label>
+							<label>
+								<textarea id="flaws" rows="3"></textarea>
+								Flaws
+							</label>
+							<label>
+								<textarea id="features" rows="26"></textarea>
+								Features &amp; Traits
+							</label>
 						</div>
 					</div>
 					
 				</div>
 				
+			</div>
+			
+			<div class="sheet">
+			</div>
+			
+			<div class="sheet">
 			</div>
 			
 			<a id="permanent" href="">Saved sheet</a>

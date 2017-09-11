@@ -18,21 +18,21 @@ function inputUpdate() {
 }
 
 function saveInput() {
-	let query = "?";
-	for (let i in get) {
+	var query = "?";
+	for (var i in get) {
 		if (get.hasOwnProperty(i)) {
 			query += encodeURIComponent(i).split(" ").join("+") + "=" + encodeURIComponent(get[i]).split(" ").join("+") + "&";
 		}
 	}
-	window.history.replaceState("", "", document.location.protocol + "//" + document.location.host + document.location.pathname + query);
 	document.getElementById("permanent").href = document.location.pathname + query;
+	window.history.replaceState("", "", document.location.protocol + "//" + document.location.host + document.location.pathname + query);
 }
 
 function loadInput() {
 	document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, buildTable);
-	for (let i in get) {
+	for (var i in get) {
 		if (get.hasOwnProperty(i)) {
-			let element = document.getElementById(i);
+			var element = document.getElementById(i);
 			if (element != null) {
 				if (element.tagName == "INPUT") {
 					if (element.type == "checkbox") {
@@ -49,14 +49,14 @@ function loadInput() {
 }
 
 function addListeners() {
-	let elements = document.getElementsByTagName("INPUT");
-	for (let i in elements) {
+	var elements = document.getElementsByTagName("INPUT");
+	for (var i in elements) {
 		if (elements.hasOwnProperty(i)) {
 			elements[i].addEventListener("change", inputUpdate);
 		}
 	}
 	elements = document.getElementsByTagName("TEXTAREA");
-	for (let i in elements) {
+	for (var i in elements) {
 		if (elements.hasOwnProperty(i)) {
 			elements[i].addEventListener("change", inputUpdate);
 		}

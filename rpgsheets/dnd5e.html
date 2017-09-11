@@ -3,6 +3,8 @@
 	<head>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lusitana:400,700" />
 		<link rel="stylesheet" type="text/css" href="rpg.css" />
+		<script type="text/javascript" src="rpgsheet.js"></script>
+		<title>D&amp;D 5e Character Sheet</title>
 	</head>
 	<body>
 		<div id="content">
@@ -14,7 +16,7 @@
 						<div class="section">
 							<h1>Dungeons and Dragons 5e</h1>
 							<label>
-								<input type="text" name="name" />
+								<input type="text" id="name" />
 								Character Name
 							</label>
 						</div>
@@ -23,19 +25,19 @@
 						<div class="section">
 							<div class="vertical-third">
 								<label>
-									<input type="text" name="class" />
+									<input type="text" id="class" />
 									Class &amp; Level
 								</label>
 							</div>
 							<div class="vertical-third">
 								<label>
-									<input type="text" name="background" />
+									<input type="text" id="background" />
 									Background
 								</label>
 							</div>
 							<div class="vertical-third">
 								<label>
-									<input type="text" name="player" />
+									<input type="text" id="player" />
 									Player Name
 								</label>
 							</div>
@@ -43,19 +45,19 @@
 						<div class="section">
 							<div class="vertical-third">
 								<label>
-									<input type="text" name="race" />
+									<input type="text" id="race" />
 									Race
 								</label>
 							</div>
 							<div class="vertical-third">
 								<label>
-									<input type="text" name="alignment" />
+									<input type="text" id="alignment" />
 									Alignment
 								</label>
 							</div>
 							<div class="vertical-third">
 								<label>
-									<input type="text" name="experience" />
+									<input type="text" id="experience" />
 									Experience Points
 								</label>
 							</div>
@@ -84,136 +86,136 @@
 							<div class="vertical-twothird">
 								<div class="section">
 									<label>
-										<input class="inline" type="text" name="inspiration" />
+										<input class="inline" type="text" id="inspiration" />
 										Inspiration
 									</label>
 									<label>
-										<input class="inline" type="text" name="proficiency" />
+										<input class="inline" type="text" id="proficiency" />
 										Proficiency Bonus
 									</label>
 								</div>
 								<div class="section box">
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="save_str_prof" />
-										<input class="inline" type="text" name="save_str" />
+										<input class="inline" type="checkbox" id="save_str_prof" />
+										<input class="inline" type="text" id="save_str" />
 										Strength
 									</label>
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="save_dex_prof" />
-										<input class="inline" type="text" name="save_dex" />
+										<input class="inline" type="checkbox" id="save_dex_prof" />
+										<input class="inline" type="text" id="save_dex" />
 										Dexterity
 									</label>
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="save_con_prof" />
-										<input class="inline" type="text" name="save_con" />
+										<input class="inline" type="checkbox" id="save_con_prof" />
+										<input class="inline" type="text" id="save_con" />
 										Constitution
 									</label>
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="save_int_prof" />
-										<input class="inline" type="text" name="save_int" />
+										<input class="inline" type="checkbox" id="save_int_prof" />
+										<input class="inline" type="text" id="save_int" />
 										Intelligence
 									</label>
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="save_wis_prof" />
-										<input class="inline" type="text" name="save_wis" />
+										<input class="inline" type="checkbox" id="save_wis_prof" />
+										<input class="inline" type="text" id="save_wis" />
 										Wisdom
 									</label>
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="save_cha_prof" />
-										<input class="inline" type="text" name="save_cha" />
+										<input class="inline" type="checkbox" id="save_cha_prof" />
+										<input class="inline" type="text" id="save_cha" />
 										Charisma
 									</label>
 									<label class="spaced centered">Saving Throws</label>
 								</div>
 								<div class="section box">
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="skill_acr_prof" />
-										<input class="inline" type="text" name="skill_acr" />
+										<input class="inline" type="checkbox" id="skill_acr_prof" />
+										<input class="inline" type="text" id="skill_acr" />
 										Acrobatics
 									</label>
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="skill_ani_prof" />
-										<input class="inline" type="text" name="skill_ani" />
+										<input class="inline" type="checkbox" id="skill_ani_prof" />
+										<input class="inline" type="text" id="skill_ani" />
 										Animal Handling
 									</label>
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="skill_arc_prof" />
-										<input class="inline" type="text" name="skill_arc" />
+										<input class="inline" type="checkbox" id="skill_arc_prof" />
+										<input class="inline" type="text" id="skill_arc" />
 										Arcana
 									</label>
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="skill_ath_prof" />
-										<input class="inline" type="text" name="skill_ath" />
+										<input class="inline" type="checkbox" id="skill_ath_prof" />
+										<input class="inline" type="text" id="skill_ath" />
 										Athletics
 									</label>
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="skill_dec_prof" />
-										<input class="inline" type="text" name="skill_dec" />
+										<input class="inline" type="checkbox" id="skill_dec_prof" />
+										<input class="inline" type="text" id="skill_dec" />
 										Deception
 									</label>
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="skill_his_prof" />
-										<input class="inline" type="text" name="skill_his" />
+										<input class="inline" type="checkbox" id="skill_his_prof" />
+										<input class="inline" type="text" id="skill_his" />
 										History
 									</label>
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="skill_ins_prof" />
-										<input class="inline" type="text" name="skill_ins" />
+										<input class="inline" type="checkbox" id="skill_ins_prof" />
+										<input class="inline" type="text" id="skill_ins" />
 										Insight
 									</label>
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="skill_int_prof" />
-										<input class="inline" type="text" name="skill_int" />
+										<input class="inline" type="checkbox" id="skill_int_prof" />
+										<input class="inline" type="text" id="skill_int" />
 										Intimidation
 									</label>
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="skill_inv_prof" />
-										<input class="inline" type="text" name="skill_inv" />
+										<input class="inline" type="checkbox" id="skill_inv_prof" />
+										<input class="inline" type="text" id="skill_inv" />
 										Investigation
 									</label>
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="skill_med_prof" />
-										<input class="inline" type="text" name="skill_med" />
+										<input class="inline" type="checkbox" id="skill_med_prof" />
+										<input class="inline" type="text" id="skill_med" />
 										Medicine
 									</label>
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="skill_nat_prof" />
-										<input class="inline" type="text" name="skill_nat" />
+										<input class="inline" type="checkbox" id="skill_nat_prof" />
+										<input class="inline" type="text" id="skill_nat" />
 										Nature
 									</label>
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="skill_prc_prof" />
-										<input class="inline" type="text" name="skill_prc" />
+										<input class="inline" type="checkbox" id="skill_prc_prof" />
+										<input class="inline" type="text" id="skill_prc" />
 										Perception
 									</label>
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="skill_prf_prof" />
-										<input class="inline" type="text" name="skill_prf" />
+										<input class="inline" type="checkbox" id="skill_prf_prof" />
+										<input class="inline" type="text" id="skill_prf" />
 										Performance
 									</label>
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="skill_prs_prof" />
-										<input class="inline" type="text" name="skill_prs" />
+										<input class="inline" type="checkbox" id="skill_prs_prof" />
+										<input class="inline" type="text" id="skill_prs" />
 										Persuasion
 									</label>
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="skill_rel_prof" />
-										<input class="inline" type="text" name="skill_rel" />
+										<input class="inline" type="checkbox" id="skill_rel_prof" />
+										<input class="inline" type="text" id="skill_rel" />
 										Religion
 									</label>
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="skill_sle_prof" />
-										<input class="inline" type="text" name="skill_sle" />
+										<input class="inline" type="checkbox" id="skill_sle_prof" />
+										<input class="inline" type="text" id="skill_sle" />
 										Sleight of Hand
 									</label>
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="skill_ste_prof" />
-										<input class="inline" type="text" name="skill_ste" />
+										<input class="inline" type="checkbox" id="skill_ste_prof" />
+										<input class="inline" type="text" id="skill_ste" />
 										Stealth
 									</label>
 									<label class="nospace">
-										<input class="inline" type="checkbox" name="skill_sur_prof" />
-										<input class="inline" type="text" name="skill_sur" />
+										<input class="inline" type="checkbox" id="skill_sur_prof" />
+										<input class="inline" type="text" id="skill_sur" />
 										Survival
 									</label>
 									<label class="spaced centered">Skills</label>
@@ -222,7 +224,7 @@
 						</div>
 						<div class="section">
 							<label>
-								<textarea name="proficiencies" rows="12"></textarea>
+								<textarea id="proficiencies" rows="12"></textarea>
 								Proficiencies &amp; Languages
 							</label>
 						</div>
@@ -281,6 +283,7 @@
 				
 			</div>
 			
+			<a id="permanent" href="">Permanent link to this page</a>
 		</div>
 	</body>
 </html>
